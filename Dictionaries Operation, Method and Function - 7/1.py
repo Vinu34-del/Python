@@ -20,3 +20,5 @@ birthday["Vinay"] = "3-dec-2000"
 print(birthday)
 
 #Removing Element
+birthday.pop("Rohit")
+print(birthday) #output: delete the rohit key value
