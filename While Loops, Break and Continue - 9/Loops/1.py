@@ -20,3 +20,16 @@ for i in range(1,12):
     if i == 3:
         continue
     print(i)
+
+
+ #ATM PIN example using while loop, break and continue
+pin = "1234"
+attempts = 1
+while attempts<=3:
+    input_pin = input(f" trails -{attempts} | PIN: ")
+    attempts +=1
+    if input_pin == pin:
+        print("Correct")
+        break
+    else:
+        print("Incorrect")
